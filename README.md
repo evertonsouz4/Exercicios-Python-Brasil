@@ -1,2 +1,2 @@
 # Estudo Python
- Utilizado para estudo na linguagem python
+ Repositório utilizado para estudo na linguagem python.
