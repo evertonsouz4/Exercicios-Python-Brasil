@@ -27,3 +27,10 @@ metro = int(input('Digite um número em metros: '))
 centimetro = metro * 100
 
 print(f'O valor convertido é: {centimetro} centímetros.')
+
+# 6.Faça um Programa que peça o raio de um círculo, calcule e mostre sua área.
+print('Calculo de área circular\n')
+raio = int(input('Digite o raio do circulo: '))
+area = 2.14 * raio**2
+
+print(f'\nA área do circulo é: {area}')
