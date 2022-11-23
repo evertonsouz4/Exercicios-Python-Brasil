@@ -48,3 +48,15 @@ elif media >= 7:
     print('\nSua média foi superior a 7, você está APROVADO!')
 else:
     print('\nVocê foi reprovado, média menor que sete.')
+
+#6.Faça um Programa que leia três números e mostre o maior deles.
+num_1 = int(input('Digite um o 1° numero: '))
+num_2 = int(input('Digite um o 2° numero: '))
+num_3 = int(input('Digite um o 3° numero: '))
+
+if num_1 > num_2 and num_1 > num_3:
+    print(f'O 1° número é o maior, sendo: {num_1}')
+elif num_2 > num_1 and num_2 > num_3:
+    print(f'O 2° número é o maior sendo: {num_2}')
+else:
+    print(f'O 3° número é o maior sendo: {num_3}')
