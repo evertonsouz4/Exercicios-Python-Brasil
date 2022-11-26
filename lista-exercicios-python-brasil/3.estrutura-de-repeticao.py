@@ -38,4 +38,18 @@ else:
             else:
                 if estado_civil != 's' and estado_civil != 'c' and estado_civil != 'v' and estado_civil != 'd':
                     print("Erro! Estado civil deve ser: 's', 'c', 'v', 'd'")
-                
+
+# 4.Supondo que a população de um país A seja da ordem de 80000 habitantes com uma taxa anual de crescimento de 3% e que a população de B seja 200000 habitantes com uma taxa de
+# crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas 
+# as taxas de crescimento.
+ano = 0
+pais_a = 80000
+pais_b = 200000
+
+while True:
+    ano += 1
+    pais_a = pais_a + pais_a * 0.03
+    pais_b = pais_b + pais_b * 0.015
+    if pais_a >= pais_b:
+        print(ano)
+        break
