@@ -55,3 +55,18 @@ while True:
         break
 
 # 5.Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
+
+ano = 0
+
+pais_a = int(input('Digite a população do pais a: '))
+tx_pais_a = float(input('Digite a taxa de crescimento do pais a: '))
+
+pais_b = int(input('Digite a população do pais b: '))
+tx_pais_b = float(input('Digite a taxa de crescimento do pais b: '))
+
+while True:
+    ano += 1
+    pais_a = pais_a + pais_a * tx_pais_a
+    pais_b = pais_b + pais_b * tx_pais_b
+    if pais_a >= pais_b:
+        print(ano)
