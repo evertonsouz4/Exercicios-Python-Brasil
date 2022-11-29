@@ -70,3 +70,4 @@ while True:
     pais_b = pais_b + pais_b * tx_pais_b
     if pais_a >= pais_b:
         print(ano)
+        break
