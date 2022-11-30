@@ -55,7 +55,6 @@ while True:
         break
 
 # 5.Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento iniciais. Valide a entrada e permita repetir a operação.
-
 while True:
     pais_a = int(input('Digite a população do pais a: '))
     pais_b = int(input('Digite a população do pais b: '))
@@ -63,10 +62,10 @@ while True:
     tx_pais_b = float(input('Digite a taxa de crescimento do pais b: '))
     # validação da entrada.
     if tx_pais_a < 0:
-        print('Erro! digite um valor positiva.')
+        print('Erro! digite um valor positivo.')
         continue
     elif tx_pais_b < 0:
-        print('Erro! digite um valor positiva.')
+        print('Erro! digite um valor positivo.')
         continue
 
     break
@@ -79,3 +78,11 @@ while True:
     if pais_a >= pais_b:
         print(ano)
         break
+# 6.faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro.
+for num in range(1, 21):
+    print(num)
+       # //---// #
+for num in range(1, 21):
+    print(num, end='')
+
+# 7.Faça um programa que leia 5 números e informe o maior número.
