@@ -7,8 +7,8 @@ for i in range(5):
 # 2.Faça um Programa que leia um vetor de 10 números reais e mostre-os na ordem inversa.
 vetor = []
 for i in range(10):
-    vetor.append(input('Adicione um número: '))
-    print(vetor[::-1])
+    vetor.append(float(input('Adicione um número: ')))
+print(vetor[::-1])
 
 # 3.Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 nota = []
@@ -19,3 +19,7 @@ for i in range(4):
 media = media / 4
 print(nota)
 print(media)
+
+# 4.Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
+
+    
